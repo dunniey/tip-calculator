@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="stylesheet" href="C:\Users\Owner\Pictures\tip-calculator-app-main\design\style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@1,700&display=swap" rel="stylesheet">
+
+<title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body> 
+<div class="wrapper">
+  <div class="calc">
+    <div class="calc-left">
+      <div class="cl-input">
+        <label for="bill">Bill</label>
+        <div class="bill-input">
+          <span> $</span>
+          <input type="number" id="bill" aria-label="Bill"/>
+          <span>0</span>
+        </div>
+      </div>
+      <div class="cl-tips">select tips%</div>
+      <div class="cl-tip">5%</div>
+      <div class="cl-tip">10%</div>
+      <div class="cl-tip">15%</div>
+      <div class="cl-tip">25%</div>
+      <div class="cl-tip">50%</div>
+      <div class="cl-tip cl-tip-custom">custom</div>
+      <div class="cl-input"></div>
+      <div>
+      <label for="bill">Number of People</label>
+      <div class="form-input">
+        <span> $</span>
+        <input type="number" id="people" aria-label="number of people">
+        <span>0</span>
+      </div>
+    </div>
+    <div class="calc-right">
+      <h3 class="tip-title"> Tip Amount</h3>
+      <p class="sub-title">/person</p>
+    <h3 class="tip-amount">$0.00</h3>
+    <h3 class="tip-title"> Total</h3>
+    <p class="sub-title">/person</p>
+    <h3 class="tip-amount">
+      $0.00
+    </h3>
+ <div class="tip-action">
+  <button class="tip-reset-btn"> reset</button>
+ </div>
+</div>
+  </div>
+</body>
+</html>
