@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box; }
+    body{
+        background-color:white;
+        width: 100%;
+        height: 100%;
+        padding: 1px;
+        text-align: center;
+        font-family: 
+        Arial, Helvetica, sans-serif;
+    } 
+        .logo{
+        padding: 4px;
+            margin: 8px;
+            border: none;
+
+
+        }
+        .heading{
+            position: relative;
+        display: block;
+        font-weight: 200;
+
+
+        }
+        h1{
+            margin-top: -5px;
+            font-size: 2em;
+            font-weight: 600;
+        }
+        h5{
+            margin-bottom: 20px;
+            font-weight: lighter;
+            text-align: center;
+        }
+        .email,.password,.number{
+            position: relative;
+            height: 40px;
+            width: 85%;
+            max-width: 300px;
+            margin: auto;
+            box-shadow: 0 5px 10px rgb(65, 57, 57);
+            margin-bottom: 8px;
+            font-family:  
+        Arial, Helvetica,serif,sans-serif;
+            font-weight: 700;
+            border-radius: 2px;
+            border: 1px solid black;
+            display: flex;
+            align-content: center;
+        
+            
+        }
+        .box input{
+            height: 90%;
+            border-radius: 5px;
+            background-color: white;
+            outline: none;
+            padding: 10px;
+            
+        }
+    
+        .button-continue{
+        max-width: 300px;
+        position: relative;
+            height: 40px;
+            width: 85%;
+            max-width: 300px;
+            margin: auto;
+            background-color:#ED1C24;
+            border: none;
+            color: white;
+            font-family:  
+        Arial, Helvetica, serif ,sans-serif;
+            font-weight: 700; 
+              border: 7px solid none;
+            display: block;
+            align-content: center;
+            border-radius: 5px; 
+        box-shadow:0 5px 10px ;
+    }
+    .button-continue:hover{
+        background-color: rgb(204, 7, 7);
+
+
+    }
+            label{
+                text-align: center;
+                font-size: 15px;
+                display: block;
+                cursor:pointer;
+            }
+            #google{            
+        max-width: 300px;
+        position: relative;
+            height: 40px;
+            width: 85%;
+            max-width: 300px;
+            margin: auto;
+            background-color: royalblue;
+           border: none;
+            color: azure;
+            font-family:  
+        Arial, Helvetica,serif, sans-serif;
+            font-weight: 700; 
+              border: 7px solid none;
+            display: block;
+            align-content: center;
+            border-radius: 5px; 
+            margin-top: 10px;
+        margin-bottom: 30px;}
+            .google{
+                position: absolute;
+                left: 1em;
+                display: block;}
+            #facebook{
+                max-width: 300px;
+        position: relative;
+            height: 40px;
+            width: 85%;
+            max-width: 300px;
+            margin: auto;
+            background-color: royalblue;
+            border: none;
+            color: azure;
+            font-family:  
+        Arial, Helvetica, serif, sans-serif;
+            font-weight: 700; 
+              border: 7px solid none;
+            display: block;
+            align-content: center;
+            border-radius: 5px;}
+            .facebook{position: absolute;
+                left: 1em;
+                display: block;}
+        #p{
+            margin: 15px;
+            font-family:
+        Arial, Helvetica, sans-serif;
+            font-weight: 550;
+            font-size: 1rem;
+        }
+        #google:hover{background-color: rgb(6, 6, 163);}
+        #facebook:hover{background-color: rgb(6, 6, 163);}
+.p{font-weight: 100;
+font-size: 13.5px;
+position: relative;
+margin-left: 2em;
+display: block;
+}
+.last{
+margin-left: -0.8em;
+}span{
+font-size: 15px;
+margin-left: -3px;
+}
