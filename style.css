@@ -33,8 +33,9 @@ box-sizing: border-box;}
 body{
     
     background-color:hsl(185, 41%, 84%);
-    width: 75%;
-    height: 75%;
+    width: fit-content;
+    display: block;
+    height: fit-content;
 font-Weight: 500;
 Font-size: 24px;
 font-family:'Space Mono', monospace;
@@ -44,25 +45,27 @@ padding: 20px
 max-width: 1100px;
 background-color:white;
 width: 900px;
+display: block;
 height: 400px;
 border: none;
 margin:0 auto;
 border-radius: 20px;
-padding: 20px;}                             
+padding: 20px;}   
+                          
 .container-bill{
-height: 300px;
+height: 400px;
 
 border: none;
 margin: 0 auto;
-width: 500px;
+width: 400px;
 padding: 5px;
 border-radius: 20px;
-display: inline-block;  
+display:inline-block;  
 position: relative;}
 
    
 #bill2   {
-top:24px;
+top:30px;
 left:-45px;
     position: relative;
     height: 40px;
@@ -159,7 +162,7 @@ margin-top:-0px;
     opacity: 80%;
     color:  hsl(183, 100%, 15%);
     font-size:20px ;
-}
+}/*
 .button1, .button2{
 margin: 4px;
 float: left;
@@ -338,7 +341,6 @@ font-family:'Space Mono', monospace;}
 
 
 .container{
-
 background-color:white;
 width: 350px;
 position: relative;               
@@ -427,98 +429,50 @@ color: hsl(183, 100%, 15%);
     font-size:20px ;
 }
 .button2{
-    width: 150px;
-    position:absolute;
-    max-width: 140px;
-    height: 45px;
-    right:190px;
-    font-size: 22px;
-    font-weight: 900;
+   
     font-family: 'Space Mono', monospace;
     background:hsl(183, 100%, 15%);
     color: rgba(255, 255, 255, 0.736);
-    border: none;
-    border-radius: 5px;
+    
     
     }
 .button1{
-width: 150px;
-position: relative;
-max-width: 140px;
-left:-1px;margin-bottom: 8px;
-height: 45px;
-font-size: 22px;
-font-weight: 900;
+
 font-family: 'Space Mono', monospace;
 background:hsl(183, 100%, 15%);
 color: rgba(255, 255, 255, 0.736);
-border: none;
-border-radius: 5px;
+
 
 }
 .button4{
-    width: 150px;
-left:163px;
-top:190px;
-    position: absolute;
-    max-width: 140px;
-    height:45px;
-    font-size: 22px;
-    font-weight: 900;
+    
     font-family: 'Space Mono', monospace;
     background:hsl(183, 100%, 15%);
     color: rgba(255, 255, 255, 0.736); 
-    border: none;
-    border-radius: 5px;
+   
 
 }
 .button3{
-width: 150px;
-right: 149px;
-margin-top: 15px;
-position: relative;
-top: 50px;
-max-width: 140px;
-height:45px;
-font-size: 22px;
-font-weight: 900;
+
 font-family: 'Space Mono', monospace;
 background:hsl(183, 100%, 15%);
 color: rgba(255, 255, 255, 0.736); 
-border: none;
-border-radius: 5px;
+
 
 }
 .button5{
 
-top:60px;
-position: relative;
-right: 1px;
-width: 150px;
-max-width: 140px;
-height: 45px;
-font-size: 22px;
-font-weight: 900;
+
 font-family: 'Space Mono', monospace;
 background:hsl(183, 100%, 15%);
 color:rgba(255, 255, 255, 0.736);
-border: none;
-border-radius: 5px;}
+}
 
 
 .button6{
 background-color:hsla(197, 51%, 48%, 0.104);
 color:hsl(183, 100%, 15%);
-font-size: 20px;
-width:150px ;
-left:10px;
-height: 45px;
-top: 60px;
-position: relative;
-max-width: 140px;
-opacity: 80%;
-font-weight: 900;
-text-transform: capitalize;}
+}
 
 .container-button-2{
     
