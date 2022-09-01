@@ -1,6 +1,6 @@
 *{padding: 0;
     margin: 0;
-box-sizing: border-box;}
+}
 #container-bill2:focus,#bill2:focus{
   
     border: 3.5px solid hsl(180, 100%, 50%);
@@ -11,17 +11,14 @@ box-sizing: border-box;}
 }
 .button5:hover,.btn7:hover,.button6:hover,.button1:hover,.button2:hover,.button3:hover,.button4:hover{
     background-color: hsl(180, 100%, 50%);
-    display: block !important;
-    color:hsl(183, 100%, 15%);
-    pointer-events: all !important;
-}
+    color:hsl(183, 100%, 15%);}
 
 #bill2[type=number]::-webkit-inner-spin-button,
 #bill2[type=number]::-webkit-outer-spin-button {
     -webkit-apperance:none ;
     -moz-appearance: none;
-    margin: 0;
-}
+     margin: 0;}
+
 .button1:focus,.button2:focus,.button3:focus,.button4:focus,.button5:focus,.button6:focus,.btn7:focus{
     background-color: hsl(180, 100%, 50%);
     opacity: 100%;
@@ -42,18 +39,17 @@ font-family:'Space Mono', monospace;
 padding: 20px
 ;}
 .container{
-max-width: 1100px;
 background-color:white;
 width: 900px;
 display: block;
-height: 400px;
+height: 500px;
 border: none;
 margin:0 auto;
 border-radius: 20px;
 padding: 20px;}   
                           
 .container-bill{
-height: 400px;
+height: 500px;
 
 border: none;
 margin: 0 auto;
@@ -65,18 +61,16 @@ position: relative;}
 
    
 #bill2   {
-top:30px;
-left:-45px;
+
+
     position: relative;
     height: 40px;
+    width: 330px;
     font-weight: 900;
     font-size: 24px;
     text-align: end;
     color: hsl(183, 100%, 15%);
     border-radius: 5px;
-                width: 320px;
-                max-width: 100%;
-                margin: auto;
                 background-color:hsla(180, 15%, 78%, 0.423) ;
                 border: none;
                 outline: none;  
@@ -84,7 +78,6 @@ left:-45px;
           
     }  
 #container-bill2{
-margin-left:700px;
 position: relative;
 height: 40px;
 font-weight: 900;
@@ -92,9 +85,8 @@ font-size: 24px;
 text-align: end;
 color: hsl(183, 100%, 15%);
 border-radius: 5px;
-            width: 320px;
-            
-            margin: auto;
+            width: 330px;
+            margin-top: 10px;
             background-color:hsla(180, 15%, 78%, 0.423) ;
             border: none;
             outline: none;  
@@ -113,62 +105,56 @@ h1{
 }
 .img{
     position: absolute;
-    margin-top: 35px;
+    margin-top: 12px;
+    opacity: 50%;
     left:15px;
 }
 .img2{position: absolute;
 left:275px;
-margin-top: 30px;
-opacity: 50%;}
+font-weight: 900;
+font-size: 22px;
+margin-top: 8px;
+opacity: 30%;}
 
 .design{
 position: absolute;
-margin-top:10px;
+margin-top:18px;
 left: 29px;
 opacity: 50%;
 }
 .design2{
 position: absolute;
 left: 290px;
-margin-top: 10px;
+margin-top: 18px;
 opacity: 40%;
 }
 
 
 .bill-style2{
-    margin-left: 4px;
-    font-size: 21px;
-    position: relative;
-    margin-top: 30px;
-}
-.bill{
-    margin-left: 4px;
-    width: 28000px;
-    font-size: 20px;
-    font-weight: bolder;
-    opacity: 90%;
-    color:  hsl(183, 100%, 15%);
-}
-.y{
-    left: -5px;
-margin-top:-0px;
-    position: absolute;
-}
-
-
-
-.bill-style2 ,.design,.container-button-2{
+margin-top: 50px;
+margin-left: 10px;
+    margin-bottom: 10px;
     font-weight: bolder;
     opacity: 80%;
     color:  hsl(183, 100%, 15%);
     font-size:20px ;
-}/*
+}
+
+.bill{
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 900;
+    opacity: 90%;
+    color:  hsl(183, 100%, 15%);
+}
+
 .button1, .button2{
 margin: 4px;
 float: left;
 width: 100px;
 position: relative;
-max-width: 100px;
+margin-left: 10px;
 height: 40px;
 font-size: 22px;
 font-weight: 900;
@@ -181,7 +167,8 @@ border-radius: 5px;
 }
 .button3{margin: 4px;
 width: 100px;
-max-width: 100px;
+float: left;
+margin-left: 10px;
 height:40px;
 font-size: 22px;
 font-weight: 900;
@@ -194,9 +181,9 @@ border-radius: 5px;
 }
 .button4,.button5,.button6{
 margin: 4px;
-  float: left;                   
+      margin-left: 10px;            
 width: 100px;
-max-width: 100px;
+float: left;
 height: 40px;
 font-size: 22px;
 font-weight: 900;
@@ -214,22 +201,27 @@ font-size: 20px;
 opacity: 70%;
 font-weight: 600;
 text-transform: capitalize;}
+
 .container-button-2{
-    clear: both;
-    padding-left: 40px;
+margin-left: 10px;
     position: relative;
-    margin-top: 70px;
-        margin-left: 8px;
+    margin-top: 150px;}
     
+.y{
+ color:  hsl(183, 100%, 15%);
+font-size: 20px;
+margin-bottom: 10px;
+font-weight: 900;
+opacity: 90%;
 }
 .container-bill-2{
     border: none; 
 margin: 0 auto; 
-height: 340px;
+height: 370px;
 background:hsl(183, 100%, 15%);
 color: white;
 position:relative;
-bottom:300px;
+bottom:455px;
 left:230px; 
 text-align: center;
 width: 350px;
@@ -240,27 +232,27 @@ border-radius: 20px;
 .span{
     margin-left: 260px;
     display: block;
-    font-size: 34px;
+    font-size: 25px;
     left: -30px;
     font-weight: 900;
 position: absolute;
-margin-top: 110px;
+margin-top: 170px;
     color:hsl(180, 100%, 50%);
 }
 
 .span2{
    
     display: block;
-    font-size: 34px;
+    font-size: 25px;
     font-weight: 900;
 position: absolute;
 left: 230px;
-margin-top: 20px;
+margin-top: 80px;
     color:hsl(180, 100%, 50%);
 
 }
 .t1{position: absolute;
-top:120px;
+top:170px;
    left:25px;
    opacity: 80%;
     font-size: 17px;
@@ -268,7 +260,7 @@ top:120px;
 
 }
 .t2{position: absolute;
-   top:30px;
+   top:80px;
    left:24px;
    opacity: 80%;
 font-size: 17px;
@@ -276,7 +268,7 @@ font-size: 17px;
 
 .person1{
     position: absolute;
-    margin-top: 140px;
+    margin-top: 190px;
     left:20px;
     font-size: 18px;
     font-weight: 400;
@@ -288,7 +280,7 @@ font-size: 17px;
 font-size: 18px;
 font-weight: 400;
 left:23px;
-margin-top: 50px;
+margin-top: 100px;
 opacity: 30%;
 }
 .btn7{
@@ -331,11 +323,10 @@ opacity: 30%;
     }
 
     body{
-   height: 3%;  
+   height:900px;  
    width: fit-content;
 background-color:hsl(185, 41%, 84%);
-  
-font-Weight: 500;
+  font-Weight: 500;
 Font-size: 24px;
 font-family:'Space Mono', monospace;}
 
@@ -344,23 +335,27 @@ font-family:'Space Mono', monospace;}
 background-color:white;
 width: 350px;
 position: relative;               
-height: 750px;
+height: 800px;
 border: none;
 padding-left: 9px;
 padding-top: 20px;
-border-radius: 30px;
+border-radius: 20px;
 }
-
+.container-bill{
+    width: 320px;
+    height: 450px;
+}
 #container-bill2{  
   position: relative;
 height: 40px;
 top: 5px;
+left:9px;
 font-weight: 900;
 font-size: 24px;
 text-align: end;
 color: hsl(183, 100%, 15%);
 border-radius: 5px;
-            width: 300px;
+            width: 282px;
             margin: auto;
             background-color:hsla(180, 15%, 78%, 0.423) ;
             border: none;
@@ -369,7 +364,8 @@ border-radius: 5px;
 }
 .y{
     position: relative;
-    top:70px;
+margin-left: -7px;
+width:300px;
 }
 
 
@@ -384,12 +380,12 @@ h1{margin-bottom: 18px;
 #bill2{
      position:relative;
 height: 40px;
-top:75px;
-width: 300px;
+
+width: 282px;
 outline: none;
 text-align: end;
 font-weight: 900;
-left:-8px;
+left:-2px;
 font-size: 24px;
 color:hsl(183,100%,15%);
 border-radius: 5px;
@@ -399,27 +395,27 @@ border-radius: 5px;
 .container-bill-2{
     border: none;
 margin: 0 auto; 
-height: 260px;
+height: 280px;
 background:hsl(183, 100%, 15%);
 color: white;
 position: relative;
-top:115px;
+top:30px;
 left:2px;
 text-align: center;
-width: 300px;
+width: 280px;
 border-radius: 15px;}
 
 .bill-style2{
-    margin-left: 2px;
+    margin-left: 5px;
     margin-bottom: 6px;
     margin-top: 30px;
 }
 .bill{
     margin-left: 5px;
     font-size: 20px;
+
 opacity: 70%;
-color: hsl(183, 100%, 15%);
-}
+color: hsl(183, 100%, 15%);}
 
 
 .bill-style2,.container-button-2{
@@ -428,32 +424,61 @@ color: hsl(183, 100%, 15%);
     color:  hsl(183, 100%, 15%);
     font-size:20px ;
 }
-.button2{
-   
+.button1{
+
+    left:10px;
+    width: 130px;
+    top:180px;
+position: absolute;
+align-content: center;
+flex-wrap: wrap;
+justify-content: center;
+   position: absolute;
     font-family: 'Space Mono', monospace;
     background:hsl(183, 100%, 15%);
     color: rgba(255, 255, 255, 0.736);
     
     
     }
-.button1{
-
+.button2{
+    left:160px;
+width: 130px;
+top:180px;
+position: absolute;
+align-content: center;
+flex-wrap: wrap;
+justify-content: center;
 font-family: 'Space Mono', monospace;
 background:hsl(183, 100%, 15%);
 color: rgba(255, 255, 255, 0.736);
 
 
 }
-.button4{
-    
+.button3{
+    left:10px;
+    top:240px;
+    width: 130px;
+
+position: absolute;
+align-content: center;
+flex-wrap: wrap;
+justify-content: center;
+    position: absolute;
     font-family: 'Space Mono', monospace;
     background:hsl(183, 100%, 15%);
     color: rgba(255, 255, 255, 0.736); 
    
 
 }
-.button3{
-
+.button4{
+    left:160px;
+    top:240px;
+    width: 130px;
+position: absolute;
+align-content: center;
+flex-wrap: wrap;
+justify-content: center;
+position: absolute;
 font-family: 'Space Mono', monospace;
 background:hsl(183, 100%, 15%);
 color: rgba(255, 255, 255, 0.736); 
@@ -461,8 +486,15 @@ color: rgba(255, 255, 255, 0.736);
 
 }
 .button5{
+   top:300px; 
+   left:10px ;
+   width: 130px;
+    position: absolute;
+    align-content: center;
+    flex-wrap: wrap;
 
-
+    justify-content: center;
+position: absolute;
 font-family: 'Space Mono', monospace;
 background:hsl(183, 100%, 15%);
 color:rgba(255, 255, 255, 0.736);
@@ -470,59 +502,73 @@ color:rgba(255, 255, 255, 0.736);
 
 
 .button6{
+width: 130px;
+    left:160px;
+    top:300px;
+position: absolute;
+align-content: center;
+flex-wrap: wrap;
+justify-content: center;
 background-color:hsla(197, 51%, 48%, 0.104);
 color:hsl(183, 100%, 15%);
+position: absolute;
 }
 
 .container-button-2{
     
     position: relative;
     padding: 10px;
+    box-sizing: content-box;
     right: 25px;
-    width: 350px;
+    
+    height: 66px;
+    width: 282px;
     padding-left: 30px;
-  
+  top: 40px;
     }
 
     .img{
         position: absolute;
-        margin-top:85px;
-        left:45px;
+        margin-top:8px;
+        left:43px;
     }
     .img2{position: absolute;
     left:268px;
-margin-top: 85px;
+margin-top: 8px;
 opacity: 50%;}
+
 .design{
     position: absolute;
     margin-top:12px;
-    left: 25px;
+    left: 35px;
     opacity: 50%;
 }
 .design2{
     position: absolute;
-    left: 257px;
+    left: 260px;
     margin-top: 12px;
     opacity: 40%;
 }
 
 .t1{position: absolute;
     left:15px;
-    margin-top:10px;
+    font-size: 25px;
+    margin-top:-40px;
     font-size: 20px;
     
 
 }
 .t2{position: absolute;
     left: 15px;
-    margin-top: 15px;
+    margin-top: -25px;
 font-size: 20px;
 }
 
 .span{
     position: absolute;
-    left:-90px;
-    margin-top: 120px;
+    left:-70px;
+    font-size: 25px;
+    margin-top: 140px;
      color:hsl(180, 100%, 50%);}
 .person1{
     position: absolute;
@@ -534,16 +580,17 @@ font-size: 20px;
     
 }.person2{
     position: absolute;
-margin-top: 70px;
+margin-top: 80px;
 left: 19px;
 font-size: 18px;
 font-weight: 400;
 opacity: 30%;
 }
 .span2{
-    margin-top: 40px; 
+    margin-top: 60px; 
+    font-size: 25px;
     position: absolute;
-    left: 170px;
+    left:190px;
     color:hsl(180, 100%, 50%);
 
 }
@@ -557,10 +604,9 @@ opacity: 30%;
     outline: none;
     border-radius: 5px;
    left:20px;
-   margin-top: 190px;
+   margin-top: 200px;
     font-size: 15px;
-    opacity: 10%;
-    }
-.a{margin: 3px;
+    opacity: 10%;}
 
+.a{margin: 3px;
 }}
