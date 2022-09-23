@@ -1,7 +1,7 @@
 *{padding: 0;
     margin: 0;
 }
-#container-bill2:focus,#bill2:focus{
+#bill:focus,#people:focus{
   
     border: 3.5px solid hsl(180, 100%, 50%);
     background-color:white;
@@ -9,22 +9,31 @@
     opacity: 100%;
     
 }
-.button5:hover,.btn7:hover,.button6:hover,.button1:hover,.button2:hover,.button3:hover,.button4:hover{
+#bill:hover,#people:hover{
+    border: 3px solid hsl(180, 100%, 50%);
+    background-color: white;
+}
+.button5:hover,#reset:hover,.custom:hover,.button1:hover,.button2:hover,.button3:hover,.button4:hover{
     background-color: hsl(180, 100%, 50%);
     color:hsl(183, 100%, 15%);}
 
-#bill2[type=number]::-webkit-inner-spin-button,
-#bill2[type=number]::-webkit-outer-spin-button {
+#people[type=number]::-webkit-inner-spin-button,
+#people[type=number]::-webkit-outer-spin-button {
     -webkit-apperance:none ;
     -moz-appearance: none;
      margin: 0;}
 
-.button1:focus,.button2:focus,.button3:focus,.button4:focus,.button5:focus,.button6:focus,.btn7:focus{
+.button1:focus,.button2:focus,.button3:focus,.button4:focus,.button5:focus,#reset:focus{
     background-color: hsl(180, 100%, 50%);
     opacity: 100%;
     color: hsl(183, 100%, 15%);
     border: none;
-    display: block;
+    display: block;                   
+}
+.custom:focus{
+    background-color:hsl(183, 100%, 15%);
+    color: rgba(255, 255, 255, 0.736);
+    border: none;
 }
 
 body{
@@ -34,6 +43,7 @@ body{
     display: block;
     height: fit-content;
 font-Weight: 500;
+
 Font-size: 24px;
 font-family:'Space Mono', monospace;
 padding: 20px
@@ -60,7 +70,7 @@ display:inline-block;
 position: relative;}
 
    
-#bill2   {
+#people  {
 
 
     position: relative;
@@ -77,7 +87,7 @@ position: relative;}
           
           
     }  
-#container-bill2{
+#bill{
 position: relative;
 height: 40px;
 font-weight: 900;
@@ -179,7 +189,7 @@ border: none;
 border-radius: 5px;
 
 }
-.button4,.button5,.button6{
+.button4,.button5,.custom{
 margin: 4px;
       margin-left: 10px;            
 width: 100px;
@@ -193,8 +203,8 @@ color:rgba(255, 255, 255, 0.736);
 border: none;
 border-radius: 5px;}
 
-.button6{
-background-color:hsl(189, 41%, 97%)  ;
+.custom{
+background-color:hsl(183, 100%, 15%) ;
 
 color:hsl(183, 100%, 15%);
 font-size: 20px;
@@ -229,7 +239,7 @@ border-radius: 20px;
 
 
 }
-.span{
+.tip-amount{
     margin-left: 260px;
     display: block;
     font-size: 25px;
@@ -283,7 +293,7 @@ left:23px;
 margin-top: 100px;
 opacity: 30%;
 }
-.btn7{
+.tip-reset-btn{
     position: absolute;
     width:280px;
     font-weight: bold;
@@ -309,13 +319,13 @@ opacity: 30%;
         margin:0 ;
     }
     
-    .button1:focus,.button2:focus,.button3:focus,.button4:focus,.btn7:focus,.button5:focus,.button6:focus{
+    .button1:focus,.button2:focus,.button3:focus,.button4:focus,.tip-reset-btn:focus,.button5:focus,.custom:focus{
         background-color: hsl(180, 100%, 50%);
         opacity: 100%;
         color: hsl(183, 100%, 15%);
         border: none;
     }
-    .button5:hover,.btn7:hover,.button6:hover,.button1:hover,.button2:hover,.button3:hover,.button4:hover{
+    .button5:hover,.tip-reset-btn:hover,.custom:hover,.button1:hover,.button2:hover,.button3:hover,.button4:hover{
         background-color: hsl(180, 100%, 50%);
         display: block !important;
         color:hsl(183, 100%, 15%);
@@ -345,7 +355,7 @@ border-radius: 20px;
     width: 320px;
     height: 450px;
 }
-#container-bill2{  
+#bill{  
   position: relative;
 height: 40px;
 top: 5px;
@@ -377,7 +387,7 @@ h1{margin-bottom: 18px;
     font-size: 25px;
 
 }
-#bill2{
+#people{
      position:relative;
 height: 40px;
 
@@ -501,16 +511,16 @@ color:rgba(255, 255, 255, 0.736);
 }
 
 
-.button6{
+.custom{
 width: 130px;
     left:160px;
     top:300px;
+    opacity: 100%;
 position: absolute;
 align-content: center;
 flex-wrap: wrap;
 justify-content: center;
-background-color:hsla(197, 51%, 48%, 0.104);
-color:hsl(183, 100%, 15%);
+background-color:hsl(183, 100%, 15%);
 position: absolute;
 }
 
@@ -564,7 +574,7 @@ opacity: 50%;}
 font-size: 20px;
 }
 
-.span{
+.tip-amount{
     position: absolute;
     left:-70px;
     font-size: 25px;
@@ -595,7 +605,7 @@ opacity: 30%;
 
 }
 
-.btn7{
+.tip-reset-btn{
     position: absolute;
     width:250px;
     height: 50px;
